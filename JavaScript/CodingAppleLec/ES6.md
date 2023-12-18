@@ -79,8 +79,37 @@ var는 Hoisting 시 undefined가 할당되지만,\
 let이나 const는 Hoisting 시 아무것도 없는 상태가 된다.\
 첫번째줄 'let 숫자'에는 아무것도 없는 상태라서\
 두번째줄 'console.log(숫자);'에서 에러가 나버린다.\
-따라서 var과 let, const의 Hoisting을 주의해야 한다.\
-참고로 함수선언도 Hoisting이 일어난다.
+따라서 var과 let, const의 Hoisting을 주의해야 한다.
+
+<br />
+
+참고로 함수선언도 Hoisting이 일어난다.\
+함수선언은 차이점이 존재한다.
+```
+function 함수(){   }
+var 함수 = function(){   }
+```
+function 함수(){} 의 경우 전부 Hoisting되며,\
+var 함수 = function(){} 은 선언 부분만 Hoisting된다는 차이가 있다.
+이를 자세히 살펴보면
+```
+함수();
+var 함수 = function(){
+  console.log(안녕);
+  var 안녕 = 'Hello';
+}
+
+
+var 함수(); // 함수() 뒤에 아무것도 없으므로 에러가 난다.
+함수();
+함수 = function(){
+  console.log(안녕);
+  var 안녕 = 'Hello';
+}
+```
+코드에서 var 함수 = function(){}으로 선언 한걸 볼 수 있다.\
+이때 'var 함수' 부분만 Hoisting되어 뒤에는 아무것도 없다는 뜻이므로,\
+에러가 발생한다.
 
 ## window로 전역변수 만들기
 ```
