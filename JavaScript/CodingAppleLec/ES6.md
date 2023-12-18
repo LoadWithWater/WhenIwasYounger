@@ -73,9 +73,11 @@ console.log(숫자);
 숫자 = 10;
 console.log(숫자);
 ```
-똑같이 Hoisting이 일어나지만\
-'let 숫자'에는 아무것도 없는 상태라서\
-두번째줄 console.log(숫자);에서 에러가 나버린다.\
+똑같이 Hoisting이 일어나는데,\
+var는 Hoisting 시 undefined가 할당되지만,\
+let이나 const는 Hoisting 시 아무것도 없는 상태가 된다.\
+첫번째줄 'let 숫자'에는 아무것도 없는 상태라서\
+두번째줄 'console.log(숫자);'에서 에러가 나버린다.\
 따라서 var과 let, const의 Hoisting을 주의해야 한다.\
 참고로 함수선언도 Hoisting이 일어난다.
 
