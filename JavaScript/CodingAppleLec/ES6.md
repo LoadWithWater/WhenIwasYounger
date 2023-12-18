@@ -24,8 +24,9 @@ var 변수이름;  // 선언
 |var|O|O|
 |let|X|O|
 |const|X|X|
+
 <br />
-<br />
+
 ```
 const 사람 = {name : "kim"}
 사람.name = "park"
