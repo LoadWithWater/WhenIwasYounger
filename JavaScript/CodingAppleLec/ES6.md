@@ -25,6 +25,7 @@ var 변수이름;  // 선언
 |let|X|O|
 |const|X|X|
 
+  
 ```
 const 사람 = {name : "kim"}
 사람.name = "park"
