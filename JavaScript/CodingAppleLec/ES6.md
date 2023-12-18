@@ -24,3 +24,10 @@ var 변수이름;  // 선언
 |var|O|O|
 |let|X|O|
 |const|X|X|
+
+```
+const 사람 = {name : "kim"}
+사람.name = "park"
+```
+const는 재할당이 불가능하지만\
+오브젝트 내 값은 변경이 가능하다.
