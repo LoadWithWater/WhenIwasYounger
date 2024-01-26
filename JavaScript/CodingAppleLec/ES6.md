@@ -136,7 +136,7 @@ console.log(...문자열); // 결과 => hello world
 
 <br />
 사용법\
-1. Array 합치기/복사에 자주 사용한다.\
+1. Array 합치기／복사에 자주 사용한다.\
 ```
 var a = [1, 2, 3]
 var b = [4, 5]
