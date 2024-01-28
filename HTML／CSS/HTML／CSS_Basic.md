@@ -36,7 +36,7 @@ HTML의 내용을 가로로 배치 할 수 있다.\
 ### PC 레이아웃을 만들 때는 container나 wrap 박스 사용
 
 ```
-<div class="container>
+<div class="container">
   <div class="left"></div>
   <div class="right"></div>
 </div>
