@@ -13,13 +13,14 @@
 ```
 
 ### 셀렉터의 우선순위
-1. Style=""\
-2. #id\
-3. .class\
+1. Style=""
+2. #id
+3. .class
 4. p
 
 ### display
 div, p, h1, li 등은 기본적으로 block 속성이 내장되어 있다.\
 그래서 이와 같은 태그를 사용하면 한 행을 전부 차지하게 된다.\
 이게 싫으면 display 속성을 inline 등으로 바꾸면 된다.\
-ex) display: inline, inline-blick, flex 등
+ex) display: inline, inline-block, flex 등
+
