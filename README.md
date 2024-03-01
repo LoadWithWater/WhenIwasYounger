@@ -1,3 +1,1 @@
 # WhenIwasYounger
-## 
-수정
