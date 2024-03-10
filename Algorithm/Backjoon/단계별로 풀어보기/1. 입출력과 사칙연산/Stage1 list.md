@@ -29,10 +29,10 @@
     <th>코드</th>
   </tr>
   <tr>
-    <td align="center">1</td>
+    <td align="center" style="background-color:black">1</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/2557">2557</a></td>
     <td aligh="center">Hello World</td>
-    <td aligh="center" style="font-color:brown">Bronse 5</td>
+    <td aligh="center" >Bronse 5</td>
     <td aligh="center"><a href="https://github.com/LoadWithWater/WhenIwasYounger/blob/main/Algorithm/Backjoon/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0/1.%20%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0/%5BB5%5D2557-Hello%20World(%20Py%20).py">Py</a></td>
     <td></td>
   </tr>
