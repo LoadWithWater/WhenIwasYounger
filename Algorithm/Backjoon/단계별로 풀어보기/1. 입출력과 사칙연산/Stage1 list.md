@@ -19,20 +19,14 @@
 
 <table>
   <tr>
-    <th width="10%">문제번호</th>
-    <th width="90%">문제</th>
+    <th width="5%">단계</th>
+    <th width="5%">문제번호</th>
+    <th width="50%">제목</th>
+    <th width="20%">난이도</th>
+    <th width="20%">풀이</th>
   </tr>
   <tr>
-    <td>2557</td>
-    <td>Hello World</td>
-  <tr>
-    <td colspan="3"></td>
-  </tr>
-  <tr>
-    <td>1000</td>
-    <td>A + B</td>
-  </tr>
-  <tr>
-    <td colspan="3">두 수를 입력받고 합을 출력하는 문제</td>
+    <td align="center" onClick="location.href='https://www.acmicpc.net/problem/2557'" style="cursor:pointer;">1</td>
+    <td></td>
   </tr>
 </table>
