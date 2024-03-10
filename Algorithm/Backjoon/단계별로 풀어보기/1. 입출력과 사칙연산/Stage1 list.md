@@ -161,7 +161,7 @@
     <td aligh="center"></td>
     <td aligh="center">Bronse 5</td>
     <td aligh="center"></td>
-    <td></td>
+    <td aligh="center"></td>
   </tr>
   <tr><td colspan="6"></td></tr>
   <tr><td colspan="6">
