@@ -1,7 +1,7 @@
 ## 목록
 |단계|문제번호|제목|난이도|풀이|
 |:---:|:---:|:------:|:------:|:------:|
-|1|[2557](https://www.acmicpc.net/problem/2557)|Hello World|Bronse 5||
+|1|[2557](https://www.acmicpc.net/problem/2557)|Hello World|Bronse 5| [2557](https://www.acmicpc.net/problem/2557) [2557](https://www.acmicpc.net/problem/2557)|
 |2|[1000](https://www.acmicpc.net/problem/1000)|A + B|Bronse 5||
 |3|[1001](https://www.acmicpc.net/problem/1001)|A - B|Bronse 5||
 |4|[10998](https://www.acmicpc.net/problem/10998)|A * B|Bronse 5||
