@@ -18,11 +18,11 @@
 
 <table>
   <tr>
-    <th width="10%">단계</th>
-    <th width="10%">문제번호</th>
-    <th width="100%">제목</th>
-    <th width="20%">난이도</th>
-    <th width="20%">풀이</th>
+    <th width="1fr">단계</th>
+    <th width="1fr">문제번호</th>
+    <th width="10fr">제목</th>
+    <th width="20fr">난이도</th>
+    <th width="20fr">풀이</th>
   </tr>
   <tr>
     <td align="center">1</td>
