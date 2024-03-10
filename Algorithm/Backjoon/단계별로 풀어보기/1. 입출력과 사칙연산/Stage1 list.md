@@ -19,11 +19,11 @@
 
 <table>
   <tr>
-    <th width="5%">단계</th>
-    <th width="5%">문제번호</th>
-    <th width="50%">제목</th>
-    <th width="20%">난이도</th>
-    <th width="20%">풀이</th>
+    <th width="">단계</th>
+    <th width="">문제번호</th>
+    <th width="">제목</th>
+    <th width="">난이도</th>
+    <th width="">풀이</th>
   </tr>
   <tr>
     <td align="center" onClick="location.href='https://www.acmicpc.net/problem/2557'" style="cursor:pointer;">1</td>
