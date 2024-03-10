@@ -27,4 +27,11 @@
   <tr>
     <td colspan="3">Hello World!를 화면에 출력하는 문제</td>
   </tr>
+  <tr>
+    <td>1000</td>
+    <td>A + B</td>
+  </tr>
+  <tr>
+    <td colspan="3">두 수를 입력받고 합을 출력하는 문제</td>
+  </tr>
 </table>
