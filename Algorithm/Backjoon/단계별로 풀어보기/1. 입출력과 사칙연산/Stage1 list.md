@@ -1,4 +1,4 @@
-## Stage1 목록
+## Stage1. 입출력과 사칙연산 문제 목록
 <table>
   <tr>
     <th>단계</th>
