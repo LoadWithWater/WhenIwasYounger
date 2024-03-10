@@ -15,6 +15,12 @@
 |12|[10171](https://www.acmicpc.net/problem/10171)|고양이|Bronse 5||
 |13|[10172](https://www.acmicpc.net/problem/10172)|개|Bronse 5||
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 <table>
   <tr>
