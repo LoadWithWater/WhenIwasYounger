@@ -34,24 +34,24 @@
   <tr><td colspan="5">Hello World!를 화면에 출력하는 문제</td></tr>
     <tr>
     <td align="center">2</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2557">2557</a></td>
-    <td aligh="center">Hello World</td>
+    <td align="center">1000<a href="https://www.acmicpc.net/problem/1000">1000</a></td>
+    <td aligh="center">A + B</td>
     <td aligh="center">Bronse 5</td>
     <td></td>
   </tr>
   <tr><td colspan="5">Hello World!를 화면에 출력하는 문제</td></tr>
     <tr>
     <td align="center">3</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2557">2557</a></td>
-    <td aligh="center">Hello World</td>
+    <td align="center">1001<a href="https://www.acmicpc.net/problem/1001">1001</a></td>
+    <td aligh="center">A - B</td>
     <td aligh="center">Bronse 5</td>
     <td></td>
   </tr>
   <tr><td colspan="5">Hello World!를 화면에 출력하는 문제</td></tr>
     <tr>
     <td align="center">4</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2557">2557</a></td>
-    <td aligh="center">Hello World</td>
+    <td align="center">10998<a href="https://www.acmicpc.net/problem/10998">10998</a></td>
+    <td aligh="center">A * B</td>
     <td aligh="center">Bronse 5</td>
     <td></td>
   </tr>
