@@ -162,3 +162,31 @@
   <tr><td colspan="6">", `, \ 등의 문자에 주의하며 개를 출력하는 문제</td></tr>
   <tr><td colspan="6">풀이 키워드</td></tr>
 </table>
+
+<br>
+<br>
+
+<table>
+  <tr>
+    <th>단계</th>
+    <th>문제번호</th>
+    <th>제목</th>
+    <th>난이도</th>
+    <th>풀이</th>
+    <th>코드</th>
+  </tr>
+  <tr>
+    <td align="center"></td>
+    <td align="center"><a href=""></a></td>
+    <td aligh="center"></td>
+    <td aligh="center">Bronse 5</td>
+    <td aligh="center"></td>
+    <td></td>
+  </tr>
+  <tr><td colspan="6"></td></tr>
+  <tr><td colspan="6">
+    <div>풀이 키워드
+      <br>Py:
+      <br>JS:
+    </div>
+  </td></tr>
