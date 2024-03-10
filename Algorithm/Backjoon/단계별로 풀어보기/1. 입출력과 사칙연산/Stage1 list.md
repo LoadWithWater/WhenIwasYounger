@@ -18,13 +18,13 @@
 
 <table>
   <tr>
-    <th>문제번호</th>
-    <th>문제&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="1">문제번호</th>
+    <th colspan="3">문제</th>
   </tr>
   <tr>
     <td>2557</td>
     <td>Hello World</td>
   <tr>
-    <td colspan="2">Hello World!를 화면에 출력하는 문제</td>
+    <td colspan="3">Hello World!를 화면에 출력하는 문제</td>
   </tr>
 </table>
