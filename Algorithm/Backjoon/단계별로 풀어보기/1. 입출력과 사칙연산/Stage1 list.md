@@ -31,5 +31,5 @@
     <td aligh="center">Bronse 5</td>
     <td></td>
   </tr>
-  <tr colspan="5">Hello World!를 화면에 출력하는 문제</tr>
+  <tr><td colspan="5">Hello World!를 화면에 출력하는 문제</td></tr>
 </table>
