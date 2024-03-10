@@ -19,7 +19,7 @@
   </tr>
   <tr><td colspan="6">Hello World!를 화면에 출력하는 문제</td></tr>
   <tr><td colspan="6">
-    <div>풀이 키워드<br>Py:<br>JS:</div>
+    <div>풀이 키워드</div>
   </td></tr>
     <tr>
     <td align="center">2</td>
