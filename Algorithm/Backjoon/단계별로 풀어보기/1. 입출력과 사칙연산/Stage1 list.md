@@ -26,7 +26,7 @@
     <th width="">풀이</th>
   </tr>
   <tr>
-    <td align="center" onClick="window.open(https://www.acmicpc.net/problem/2557)" style="cursor:pointer;">1</td>
+    <td align="center" onClick="window.open(https://www.acmicpc.net/problem/2557/',",");" style="cursor:pointer;">1</td>
     <td></td>
   </tr>
 </table>
