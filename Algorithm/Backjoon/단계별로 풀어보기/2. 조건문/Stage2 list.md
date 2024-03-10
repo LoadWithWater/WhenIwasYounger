@@ -64,12 +64,12 @@
     <tr>
       <td align="center">5</td>
       <td align="center"><a href="https://www.acmicpc.net/problem/2884">2884</a></td>
-      <td aligh="center">사분면 고르기</td>
+      <td aligh="center">알람 시계</td>
       <td aligh="center">Bronse 5</td>
       <td aligh="center"></td>
       <td></td>
     </tr>
-    <tr><td colspan="6">점이 어느 사분면에 있는지 알아내는 문제</td></tr>
+    <tr><td colspan="6">시간 계산 문제</td></tr>
     <tr><td colspan="6">
       <div>풀이 키워드
       </div>
