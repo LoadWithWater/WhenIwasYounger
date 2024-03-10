@@ -2,6 +2,7 @@
 |단계|문제번호|제목|난이도|풀이|
 |:---:|:---:|:------:|:------:|:------:|
 |1|[2557](https://www.acmicpc.net/problem/2557)|Hello World|Bronse 5||
+|Hello World!를 화면에 출력하는 문제|
 |2|[1000](https://www.acmicpc.net/problem/1000)|A + B|Bronse 5||
 |3|[1001](https://www.acmicpc.net/problem/1001)|A - B|Bronse 5||
 |4|[10998](https://www.acmicpc.net/problem/10998)|A * B|Bronse 5||
@@ -25,7 +26,7 @@
     <td>2557</td>
     <td>Hello World</td>
   <tr>
-    <td colspan="3">Hello World!를 화면에 출력하는 문제</td>
+    <td colspan="3"></td>
   </tr>
   <tr>
     <td>1000</td>
