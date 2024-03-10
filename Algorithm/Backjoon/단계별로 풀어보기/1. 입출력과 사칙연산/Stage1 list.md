@@ -18,8 +18,8 @@
 
 <table>
   <tr>
-    <th colspan="1">문제번호</th>
-    <th colspan="3">문제</th>
+    <th width="10%">문제번호</th>
+    <th width="90%">문제</th>
   </tr>
   <tr>
     <td>2557</td>
