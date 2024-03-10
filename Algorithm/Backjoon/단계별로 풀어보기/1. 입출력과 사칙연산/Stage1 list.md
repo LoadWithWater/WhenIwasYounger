@@ -37,7 +37,11 @@
     <td></td>
   </tr>
   <tr><td colspan="6">Hello World!를 화면에 출력하는 문제</td></tr>
-  <tr><td colspan="6">풀이 키워드</td></tr>
+  <tr><td colspan="6">
+    `풀이 키워드
+    Py :
+    JS :`
+  </td></tr>
     <tr>
     <td align="center">2</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/1000">1000</a></td>
