@@ -19,7 +19,7 @@
 <table>
   <tr>
     <th>문제번호</th>
-    <th>문제</th>
+    <th>문제&nbsp;&nbsp;&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <td>2557</td>
