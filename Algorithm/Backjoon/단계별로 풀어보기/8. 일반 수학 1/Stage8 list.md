@@ -30,7 +30,7 @@
     <td aligh="center"></td>
     <td aligh="center"></td>
   </tr>
-  <tr><td colspan="6">진법에 대해 배우는 문제</td></tr>
+  <tr><td colspan="6"></td></tr>
   <tr><td colspan="6">
     <div>풀이 키워드
     </div>
