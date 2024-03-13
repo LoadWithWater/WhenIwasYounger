@@ -35,7 +35,7 @@
     <div>풀이 키워드
     </div>
   </td></tr>
-    <td align="center">1</td>
+    <td align="center">3</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/11005">11005</a></td>
     <td aligh="center">진법 변환 2</td>
     <td aligh="center">Bronse 1</td>
