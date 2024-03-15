@@ -33,7 +33,10 @@
     <td></td>
   </tr>
   <tr><td colspan="6">두 수를 입력받고 합을 출력하는 문제</td></tr>
-  <tr><td colspan="6">풀이 키워드</td></tr>
+  <tr><td colspan="6"><div>풀이 키워드
+      <br>Py: input().split()으로 수 여러 개 입력받기
+      <br>JS:
+    </div></td></tr>
     <tr>
     <td align="center">3</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/1001">1001</a></td>
