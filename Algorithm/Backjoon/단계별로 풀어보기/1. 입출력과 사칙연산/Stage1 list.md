@@ -22,7 +22,7 @@
   </tr>
   <tr><td colspan="6">Hello World!를 화면에 출력하는 문제</td></tr>
   <tr><td colspan="6">
-    <div>풀이 키워드</div>
+    <div>풀이 키워드 : 각 언어별 기본 문법 숙지</div>
   </td></tr>
     <tr>
     <td align="center">2</td>
