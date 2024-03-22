@@ -87,7 +87,8 @@
   <tr><td colspan="6">변의 길이를 보고 삼각형을 판별하고 분류하는 문제</td></tr>
   <tr><td colspan="6">
     <div>풀이 키워드</div>
-      <td align="center">8</td>
+  </td></tr>
+    <td align="center">8</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/14215">14215</a></td>
     <td aligh="center">세 막대</td>
     <td aligh="center">Bronse 3</td>
