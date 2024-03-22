@@ -79,7 +79,7 @@
   </td></tr>
     <td align="center">7</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/5073">5073</a></td>
-    <td aligh="center">삼각형과 세 변/td>
+    <td aligh="center">삼각형과 세 변</td>
     <td aligh="center">Bronse 3</td>
     <td aligh="center"></td>
     <td aligh="center"></td>
