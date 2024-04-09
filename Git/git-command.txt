@@ -1,0 +1,156 @@
+기본
+-----
+● git add 파일명
+    staging area로 이동
+● git commit -m "메시지 내용입력"
+    repository(저장소)로 이동
+● git add .
+    파일 전체 staging area로 이동
+● git restore --staged 파일명
+    스테이징된 파일을 취소    
+
+참고 : 파일을 staging area로 이동하는 것을 '스테이징'이라고 한다.
+-----
+
+
+상태확인, 브랜치
+-----
+● git status
+    상태창 보기
+● git log --all --oneline
+    commit한 내용 조회
+    --oneline 뒤에 --graph를 붙이면 그래프로 그려준다.
+    이때 Vim 에디터가 켜진다 > j, k로 위아래 스크롤 가능하고 q로 종료가능
+● git diff
+    최근 commit 파일과 현재 파일의 차이점을 보여준다
+    Vim 에디터가 켜진다
+    스페이스바나 엔터도 하나의 변경점으로 보기 때문에 보통 생으로 사용하진 않는다.
+● git difftool (여기에 commit ID를 입력하거나 생략가능) (여기에도 commit ID를 입력하면 앞에있는 ID와 비교해서 보여준다)
+    git diff의 시각적 문제점을 해결한 명령어
+    y를 누르면 왼쪽은 수정 전, 오른쪽은 수정 후 파일을 띄워준다.
+    역시 Vim 에디터가 켜지며 h, j, k, l로 방향키, 종료는 ':q' 또는 ':qa' 입력
+
+● git branch 브랜치명
+    작성한 브랜치명으로 새 브랜치 생성
+● git switch 브랜치명
+    작성한 브랜치명으로 이동
+※ git status를 입력하면 'On branch 브랜치명'이라고 뜨는데, 이때 자신이 있는 브랜치의 위치를 볼 수 있다.
+● git merge 합치려는 브랜치명
+    브랜치 합치기
+    최종적으로 개발을 이어갈 브랜치로 이동 후, 합치려는 브랜치명을 입력하면 합칠 수 있다.
+-----
+
+
+Merge
+-----
+● git branch -d 브랜치명
+    merge가 완료된 브랜치명을 삭제할 수 있다
+● git branch -D 브랜치명
+    merge를 하지 않은 branch 삭제
+
+여러 merge 방법
+1. 3-way merge
+2. fast-forward merge
+3. rebase & merge
+4. squash & merge
+
+rebase
+일반 merge와 역할은 같음. 간단하고 짧은 브랜치들은 rebase를 쓰면 깔끔해보인다.
+하지만 conflict가 많이 발생
+ rebase & merge 하는 법
+1. 새로운 브랜치로 이동해서
+2. git rebase 중심브랜치명
+3. 중심브랜치로 이동해서
+4. git merge 새로운 브랜치명
+
+squash & merge
+● git merge --squash '합치려는 브랜치명'
+    일반 merge에 squash만 들어감
+    이 옵션을 사용하면 일반 merge에서 사용했던 사이드 브랜치들이 log에 나타나지 않아 깔끔해진다.
+-----
+
+
+복구
+-----
+● git restore 파일명
+    파일 복구
+● git restore --source '커밋ID' '파일명'
+    특정 commit 시점으로 파일 복구
+● git restore --staged 파일명
+    특정 파일명 스테이징 취소
+
+● git revert 커밋ID '커밋ID(여러개 추가가능)'
+    특정 commit을 취소
+● git revert HEAD
+    최근 commit 취소 가능
+※ merge commit도 취소 가능
+
+● git reset --hard '커밋ID'
+    해당 커밋ID 시점으로 되돌리기
+    restore와의 차이점은 restore는 해당 파일만 복구하지만
+    reset은 해당 시점으로 되돌리기 때문에 앞에 작업한 commit이 있을경우 없어버릴 수 있다. 로그까지 삭제된다.
+    ex) a, b, c 파일을 차례대로 만들고 b 파일을 만든 시점으로 리셋하면 c는 삭제된다.
+    hard리셋은 협업시엔 위험하므로 잘 쓰이지 않는다.
+● git reset --soft '커밋ID'
+    리셋인데 변동사항을 지우지 않고 스테이징 해놓는다.
+    ex) a, b, c 파일을 차례대로 만들고 b 파일을 만든 시점으로 리셋하면 c는 남아있고 b는 스테이징된 상태이다.
+● git reset --mixed '커밋ID'
+    리셋인데 변동사항을 지우지 않고 unstage 해놓는다.
+    ex) a, b, c 파일을 차례대로 만들고 b 파일을 만든 시점으로 리셋하면 c는 남아있고 b는 스테이징되지 않은 상태이다.
+-----
+
+
+Push, Pull
+-----
+● git push -u '원격저장소주소' '올릴 로컬 브랜치명'
+    로컬저장소 → 원격저장소 업로드
+    원격저장소주소는 .git으로 끝나는 주소를 복사하거나 일반 주소창을 복사해도 된다.
+    -u는 방금 작성한 원격저장소주소를 기억하라는 뜻. 다음부터는 git push만 써도 된다.
+    뒤에 로컬 브랜치명을 생략하면 모든 로컬저장소 브랜치가 올라간다.
+● git remote add '변수명' '원격저장소주소'
+    원격저장소주소를 변수명에 할당한다. 긴 원격저장소주소를 짧은 글자인 변수에 할당함으로써 다루기가 쉬워진다.
+● git clone '원격저장소주소'
+    원격저장소내용 그대로 내려받기
+● .gitignore
+    .gitignore파일을 하나 만들면 쓸데없는 파일은 commit하지 않고 관리할 수 있다.
+    (node_modules, 개인정보가 들어있는 .env파일 등)
+● git pull '원격저장소주소' '다운받을 로컬브랜치명'
+    원격저장소에 파일을 올리려고하는데, 만약 팀원이 먼저 push할 경우
+    내 로컬저장소파일과 원격저장소파일이 서로 달라 에러메시지가 뜬다.
+    따라서 원격저장소와 로컬저장소파일이 같아야한다는 의미(원격저장소 최신내용이 로컬저장소에 있을 때만 push가능)
+    이를 해결하기 위해 원격저장소 파일을 내 로컬저장소에 가져오는 것이(합치는) git pull 명령어
+    원격저장소주소입력은 아까 -u 옵션을 썼다면 생략하고 git pull만 입력해도 상관없다.
+    로컬브랜치명입력은 특정 브랜치만 입력해서 다운받을 수도 있다.
+    git pull은 git fetch명령어와 git merge가 합쳐진거라 보면된다.
+    git merge가 합쳐진것은 git pull 할 시 merge충돌이 날 수도 있다는 것. 이는 수정하면된다.
+● git fetch
+    원격저장소에 있는 commit 중에 로컬에 없는 신규 commit을 가져오라는 뜻
+    이는 가져오기만 하고 실제로 병합하지는 않는다.
+-----
+
+
+Stash
+-----
+● git stash
+    코드 임시저장
+    commit한 코드를 임시저장 할 수 있다
+    임시저장된 코드는 잠깐 다른 공간에 보관되므로 파일들이 최근 commit상태로 돌아간다.
+    staging 된 것이든 안된 것이든 추적중인 파일은 다 이동된다.
+    새로 만든 파일인데 staging 안되었다면 이동이 되지 않는다.
+● git stash list
+    임시저장한 코드(commit)을 볼 수 있다.
+    최근 commit과의 차이점을 전부 보관해준다.
+● git stash save '메모내용'
+    메모내용을 추가할 수 있다.
+● git stash pop
+    stash한 코드를 다시 불러 올 수 있다.
+    가장 최근것 부터 불러 온다는게 특징
+    현재 코드와 겹치는게 있으면 충돌이 나므로 고치면 된다.
+● git stash drop 번호
+    입력한 번호 stash 삭제
+● git stash clear
+    모든 stash 삭제
+● git stash -p
+    전체 말고 일부코드만 stash
+    파일을 훑어주면서 stash할지 의견을 물어보는데 y/n으로 대답하면된다.
+-----
