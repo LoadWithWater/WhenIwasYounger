@@ -1,30 +1,27 @@
 N = int(input())
-all = list(map(int, input().split()))
+all_requests = list(map(int, input().split()))
 budget = int(input())
 
-def cal(upper_bound: int) -> int:
+def calculate_needed_budget(upper_bound):
     needed_budget = 0
-    for i in all:
-        needed_budget += min(i, upper_bound)
-    
+    for request in all_requests:
+        needed_budget += min(request, upper_bound)
     return needed_budget
 
-
 low = 0
-high = max(all)
+high = max(all_requests)
 upper_bound = -1
 
-while (low <= high):
-    mid = (low+high) // 2
-
-    if (cal(mid) <= budget):
+while low <= high:
+    mid = (low + high) // 2
+    if calculate_needed_budget(mid) <= budget:
         upper_bound = mid
         low = mid + 1
     else:
         high = mid - 1
 
 result = -1
-for i in all:
-    given = min(i, upper_bound)
+for request in all_requests:
+    given = min(request, upper_bound)
     result = max(result, given)
 print(result)
