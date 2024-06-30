@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+
+BHun = int((B - B%100)/100)
+BTen = int((B - (B - B%100) - B%10)/10)
+BOne = int((B - (BHun*100)-(BTen*10)))
+print(A * BOne)
+print(A * BTen)
+print(A * BHun)
+print(A*B)
