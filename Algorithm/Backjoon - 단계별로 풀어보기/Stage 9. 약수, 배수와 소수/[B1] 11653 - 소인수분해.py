@@ -1,11 +1,14 @@
+list = []
+
 def prime(N):
+    temp = N
+
     if (N == 1):
         return None
     else:
-        for i in range(2, N):
-            
-
+        return None
 
 
 N = int(input())
 prime(N)
+print(list)
