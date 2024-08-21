@@ -24,3 +24,5 @@ str_list = ['s', 't', 'r', 'i', 'n', 'g']
 str = "●".join(str_list)
 # 결과 : s●t●r●i●n●g
 ```
+
+### 리스트 추가하기 : append
