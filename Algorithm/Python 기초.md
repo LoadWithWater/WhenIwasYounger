@@ -27,3 +27,5 @@ str = "●".join(str_list)
 
 ### 리스트 추가하기 : append
 리스트이름.append(데이터 값)
+```
+```
