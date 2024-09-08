@@ -28,4 +28,15 @@ str = "●".join(str_list)
 ### 리스트 추가하기 : append
 리스트이름.append(데이터 값)
 ```
+numbers = [1]
+print(numbers)
+# 결과 : [1]
+
+numbers.append(2)
+print(numbers)
+# 결과 : [1, 2]
+
+numbers.append(3)
+print(numbers)
+# 결과 : [1, 2, 3]
 ```
