@@ -39,5 +39,9 @@ print(numbers)
 numbers.append(3)
 print(numbers)
 # 결과 : [1, 2, 3]
+
+numbers.append([3, 4])
+print(numbers)
+# 결과 : [1, 2, 3, [3, 4]]
 ```
 
