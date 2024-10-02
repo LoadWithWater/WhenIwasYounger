@@ -25,7 +25,7 @@ str = "●".join(str_list)
 # 결과 : s●t●r●i●n●g
 ```
 
-### 리스트 추가하기 : append
+### 리스트 끝에 원소 추가 : append
 리스트이름.append(데이터 값)
 ```
 numbers = [1]
@@ -45,3 +45,14 @@ print(numbers)
 # 결과 : [1, 2, 3, [3, 4]]
 ```
 
+### 리스트 끝에 모든 원소 추가 : extend
+리스트이름.extend(데이터 값)
+```
+numbers = [1]
+print(numbers)
+# 결과 : [1]
+
+numbers.extend([2, 3])
+print(numbers)
+# 결과 : [1, 2, 3]
+```
