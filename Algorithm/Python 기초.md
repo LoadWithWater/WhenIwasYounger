@@ -56,3 +56,11 @@ numbers.extend([2, 3])
 print(numbers)
 # 결과 : [1, 2, 3]
 ```
+
+### 리스트 문자열로 변환하기 : join
+"".join(리스트이름)
+```
+list = ["a", "b", "c"]
+print("".join(list))
+# 결과 : "abc"
+```
