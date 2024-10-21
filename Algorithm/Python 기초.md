@@ -64,3 +64,19 @@ list = ["a", "b", "c"]
 print("".join(list))
 # 결과 : "abc"
 ```
+
+### 오름차순, 내림차순 정렬하기 : sort(), sort(reverse=True)
+리스트이름.sort(), 리스르이름.sort(reverse=True)
+```
+p = [1,4,5,3,45]
+g = [109,183,43,1,4]
+p.sort()
+g.sort(reverse=True)
+
+print(p)
+print(g)
+
+# 결과
+[1, 3, 4, 5, 45]
+[183, 109, 43, 4, 1]
+```
