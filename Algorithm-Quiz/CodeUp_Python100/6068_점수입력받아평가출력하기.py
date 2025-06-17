@@ -8,3 +8,4 @@ elif (70 > score >= 40):
 	print('C')
 elif (40 > score >= 0):
 	print('D')
+
